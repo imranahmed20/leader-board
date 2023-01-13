@@ -3,8 +3,26 @@ body {
     background: #F3F1FF;
 
 }
+header{
+    background: #562EFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+nav a {
+    text-decoration: none;
+    padding-right: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
 nav img{
-    width: 20%;
+    width: 30px;
     
 
 }
@@ -174,7 +192,7 @@ hr {
         grid-template-columns: repeat(1, 1fr);
         padding: 20px;
     }
-    .player, .blog{
+    .player, .blog, nav{
         flex-direction: column;
         gap: 0px;
 
